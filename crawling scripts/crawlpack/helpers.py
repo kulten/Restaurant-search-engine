@@ -18,9 +18,9 @@ def id_gen(name,location):
 
 def connect():
     conn = connect(database = "",
-                            user = "",
-                            password = "",
-                            host = "",
-                            port = "")
+                   user = "",
+                   password = "",
+                   host = "",
+                   port = "")
     cur = conn.cursor()
     return conn,cur
